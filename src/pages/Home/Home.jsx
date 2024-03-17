@@ -9,7 +9,7 @@ export default function Home() {
                 <NavBar />
                 <section className="backgroud xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2">
                     <article className="relative w-full h-max flex flex-row p-4 justify-center items-start">
-                        <img src="/public/logo/muñeca.png" alt="logo-revista-web" className="w-28 md:w-40 xl:w-36"/>
+                        <img src="/logo/muñeca.png" alt="logo-revista-web" className="w-28 md:w-40 xl:w-36"/>
                         <div className="flex flex-col justify-center items-center gap-20">
                             <div>
                                 <h1 className="stroke-white text-4xl md:text-6xl text-center">
