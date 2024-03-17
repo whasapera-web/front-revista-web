@@ -17,7 +17,7 @@ export default function UploadCategory() {
         name: name
       };
 
-      const response = await fetch('http://localhost:3000/advertising/addCategory', {
+      const response = await fetch('https://back-revista-web.onrender.com/advertising/addCategory', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

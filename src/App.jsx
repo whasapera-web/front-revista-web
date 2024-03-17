@@ -19,10 +19,10 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/comercios" element={<Comercios categoriId={3}/>} />
-            <Route path="/profecionales-de-bellesa" element={<Comercios categoriId={5}/>} />
-            <Route path="/profecionales-de-salud" element={<Comercios categoriId={6}/>} />
-            <Route path="/clasificados" element={<Comercios categoriId={7}/>} />
+            <Route path="/comercios" element={<Comercios categoriId={1}/>} />
+            <Route path="/profecionales-de-bellesa" element={<Comercios categoriId={3}/>} />
+            <Route path="/profecionales-de-salud" element={<Comercios categoriId={4}/>} />
+            <Route path="/clasificados" element={<Comercios categoriId={5}/>} />
             <Route path="/admin-view" element={<AdminView/>} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/Login" element={<Login />} />

@@ -14,7 +14,7 @@ export default function UploadAdvesting() {
 
   const fetchCategories = async () => {
     try {
-      const response = await fetch('http://localhost:3000/advertising/categorys');
+      const response = await fetch('https://back-revista-web.onrender.com/advertising/categorys');
       if (response.ok) {
         const data = await response.json();
         setCategories(data.data); // Asigna las categorías obtenidas del servidor al estado

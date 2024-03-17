@@ -47,6 +47,8 @@ export default function Login() {
 
                 // Actualizar el contexto de usuario
                 updateUser(decodedPayload);
+
+                window.location.href = "/CargarPublicidad"
             } else {
                 const errorData = await response.json();
 
