@@ -14,7 +14,7 @@ body{
     background: #231f20;
 }
 .backgroud{
-    background-image: url('/public/fondo-front-ffer-2.jpeg'); 
+    background-image: url('/fondo-front-ffer-2.jpeg'); 
     background-size: cover;
     background-position: center;
     position: relative;
