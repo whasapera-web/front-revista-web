@@ -14,21 +14,12 @@ body{
     background: #231f20;
 }
 .backgroud{
-    background-image: url('/public/sn.jpeg'); 
+    background-image: url('/public/fondo-front-ffer-2.jpeg'); 
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.backgroud::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(113, 113, 113, 0.509); /* Cambia el valor alpha para ajustar la opacidad del oscurecimiento */
-  }
 .stroke-white{
     -webkit-text-stroke: 1.3px black;
 }
