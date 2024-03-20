@@ -12,7 +12,7 @@ export default function Comercios({categoriId}) {
 
     const fetchAdvertisements = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/advertising/publicity/${categoriId}`);
+            const response = await fetch(`https://back-revista-web.onrender.com/advertising/publicity/${categoriId}`);
 
 
             if (response.ok) {

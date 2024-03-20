@@ -19,7 +19,7 @@ export default function Contacto() {
                                     <img src="/redes/email.png" alt="" className="w-16" />
                                 </div>
                             </div>
-                            <h1 className="text-5xl stroke-white-2">
+                            <h1 className="text-4xl stroke-white-2">
                                 CONTACTANOS
                             </h1>
                         </article>
