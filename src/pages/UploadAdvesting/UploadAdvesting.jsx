@@ -47,13 +47,13 @@ export default function UploadAdvesting() {
       formData.append('image', image);
       formData.append('category_id', selectedCategory); // Agrega la categoría seleccionada al FormData
 
-      const response = await fetch('https://back-revista-web.onrender.com/advertising/addAdvertising', {
+      const response = await fetch('http://localhost:3000/advertising/add', {
         method: 'POST',
         body: formData,
       });
 
       if (response.ok) {
-        window.location.pathname = "/login";
+        window.location.pathname = "/CargarPublicidad";
       } else {
         const errorData = await response.json();
         setError(errorData.message || 'Error en la solicitud');
