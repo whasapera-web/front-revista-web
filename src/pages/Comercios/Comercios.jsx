@@ -33,7 +33,7 @@ export default function Comercios({categoriId}) {
                 <section className="flex justify-center items-center flex-col p-4 gap-8 md:flex-row md:flex-wrap xl:w-4/6 xl:overflow-x-hidden xl:ml-10 xl:gap-16">
                     {advertisements.map((advertisement, index) => (
                         <article key={index} className="w-full h-max md:w-72 md:h-44 xl:w-82 xl:h-44">
-                            <img src={`http://localhost:3000/advertising/${advertisement.img}`} alt={`Advertisement ${index}`} className="w-full h-full" />
+                            <img src={`https://back-revista-web.onrender.com/advertising/${advertisement.img}`} alt={`Advertisement ${index}`} className="w-full h-full" />
                         </article>
                     ))}
                 </section>
