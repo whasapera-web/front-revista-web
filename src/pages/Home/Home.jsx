@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <main className="xl:w-full xl:h-max xl:justify-center xl:items-center xl:flex-col xl:hidden">
+            <main className="xl:w-screen xl:h-screen xl:justify-center xl:items-center xl:flex-col xl:hidden">
                 <NavBar />
                 <section className="relative xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2 le:p-6">
                     {/* <article className="relative w-full h-max flex flex-row p-4 justify-center items-start">
@@ -64,9 +64,9 @@ export default function Home() {
                     </article>
                 </section>
             </main>
-            <main className="xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
+            <main className="hidden xl:w-screen xl:h-screen xl:flex xl:justify-center xl:items-center xl:flex-col">
                 <NavBar />
-                <section className="relative xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2 le:p-6 xl:ml-8">
+                <section className="relative xl:w-3/6 xl:h-full p-2 md:p-16 xl:p-2 le:p-6 xl:ml-8">
                     {/* <article className="relative w-full h-max flex flex-row p-4 justify-center items-start">
                         <img src="/logo/muñeca.png" alt="logo-revista-web" className="w-28 md:w-40 xl:w-36" />
                         <div className="flex flex-col justify-center items-center gap-20 mt-2">

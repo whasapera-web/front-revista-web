@@ -7,10 +7,8 @@ export default function Nosotros() {
         <>
             <main className="xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
                 <NavBar />
-                <section className="xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2">
-                    <h1 className="stroke-white text-4xl md:text-6xl text-center">
-                        REVISTA VIRTUAL <br /> <span className="text-violet-400">WHATSAPPERA</span>
-                    </h1>
+                <section className="xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2 flex justify-center items-center flex-col">
+                    <img src="/public/titulo.png" alt="" className="w-72 scale-"/>
                     <p className="text-center p-2">
                         Hola te cuento como comenzó todo esto, viendo la necesidad de trabajar y de la situación de como esta el país decidí hacer una revista que se repartiría enviándola por whatsapp a nuestros clientes, amigos y familiares. A su vez  les pediríamos que ellos también la compartan con sus contactos y que le pidan a estos que también la compartan, de esta manera estaríamos llegando a varios hogares, oficinas y comercios.
                         También decidimos cobrar una publicidad super económica para que se sumen varios comercios y profesionales y estén con nosotros durante todo el año.
