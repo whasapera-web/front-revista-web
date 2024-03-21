@@ -13,6 +13,13 @@ export default {
       },
       rotate: {
         '00': '-10deg',
+      },
+      screens: {
+        'le': '360px',
+      },
+      spacing: {
+        '2vh': '80vh',
+        "21":  "5.9rem"
       }
     },
   },
