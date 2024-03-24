@@ -12,7 +12,7 @@ export default function AdminView() {
 
     const fetchAdvertisements = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/advertising/publicity`);
+            const response = await fetch(`https://back-revista-web.onrender.com/advertising/publicity`);
             if (response.ok) {
                 const data = await response.json();
                 console.log(data.data)
@@ -27,7 +27,7 @@ export default function AdminView() {
 
     const handleDeleteAdvertisement = async (advertisementId) => {
         try {
-            const response = await fetch(`http://localhost:3000/advertising/delete/publicity/${advertisementId}`, {
+            const response = await fetch(`https://back-revista-web.onrender.com/advertising/delete/publicity/${advertisementId}`, {
                 method: 'DELETE',
             });
             if (response.ok) {
@@ -48,7 +48,7 @@ export default function AdminView() {
                 <section className="flex justify-center items-center flex-col p-4 gap-8 md:flex-row md:flex-wrap xl:w-4/6 xl:overflow-x-hidden xl:ml-10">
                     {advertisements.map((advertisement, index) => (
                         <article key={index} className="w-full h-max md:w-72 md:h-44 xl:w-82 xl:h-44 flex flex-col justufy-center item-center">
-                            <img src={`http://localhost:3000/advertising/${advertisement.img}`} alt={`Advertisement ${index}`} className="w-full h-full" />
+                            <img src={`https://back-revista-web.onrender.com/advertising/${advertisement.img}`} alt={`Advertisement ${index}`} className="w-full h-full" />
                             <button onClick={() => handleDeleteAdvertisement(advertisement.id)} className="w-20 h-8 bg-red-700">ELIMINAR</button>
                         </article>
                     ))}
