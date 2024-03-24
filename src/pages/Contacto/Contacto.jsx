@@ -3,6 +3,11 @@ import NavBar from "../../components/NavBar";
 
 
 export default function Contacto() {
+
+    const redirect = (url) => {
+        window.open(url, '_blank');
+    }
+
     return (
         <>
             <main className="h-screen xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
@@ -13,10 +18,10 @@ export default function Contacto() {
                             <div className="flex justify-around items-center gap-4">
                                 <img src="/logo/muñeca.png" alt="" className=" w-44" />
                                 <div className="flex flex-col gap-4 items-center justify-center">
-                                    <img src="/redes/wps.png" alt="" className="w-16" />
-                                    <img src="/redes/facebook.png" alt="" className="w-16" />
-                                    <img src="/redes/instagram.png" alt="" className="w-16" />
-                                    <img src="/redes/email.png" alt="" className="w-16" />
+                                    <img src="/redes/wps.png" alt="" className="w-16" onClick={()=>redirect("https://wa.link/cnb3sv")}/>
+                                    <img src="/redes/facebook.png" alt="" className="w-16" onClick={()=>redirect("https://www.facebook.com/profile.php?id=100065298348055")}/>
+                                    <img src="/redes/instagram.png" alt="" className="w-16" onClick={()=>redirect("https://www.instagram.com/whatsa_ppera/")}/>
+                                    <img src="/redes/email.png" alt="" className="w-16" onClick={()=>redirect("mailto:fernanda666correa@gmail.com")}/>
                                 </div>
                             </div>
                             <h1 className="text-4xl stroke-white-2">

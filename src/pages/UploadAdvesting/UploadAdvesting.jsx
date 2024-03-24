@@ -67,7 +67,7 @@ export default function UploadAdvesting() {
     <>
       <main className="xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
         <NavBar />
-        <form onSubmit={handleSubmit} className="flex flex-col items-center mt-8">
+        <form onSubmit={handleSubmit} className="flex flex-col items-center mt-8 p-4">
           <h1 className="text-3xl mb-4">Carga una publicidad</h1>
           <input 
             type="file" 
@@ -80,7 +80,7 @@ export default function UploadAdvesting() {
             <img
               src={previewImage}
               alt="Preview"
-              className="max-w-full h-auto mb-4"
+              className="max-w-full mb-4 w-full h-44"
             />
           )}
           <select 
