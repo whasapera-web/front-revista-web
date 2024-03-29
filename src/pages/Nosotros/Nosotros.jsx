@@ -3,7 +3,7 @@ export default function Nosotros() {
 
     return (
         <>
-            <main className="xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
+            <main className="bg-violet-900 xl:w-full xl:h-max xl:flex xl:justify-center xl:items-center xl:flex-col">
                 <NavBar />
                 <section className="xl:w-3/6 xl:h-screen p-2 md:p-16 xl:p-2 flex justify-center items-center flex-col">
                     <img src="/titulo.png" alt="" className="w-72 scale-"/>
