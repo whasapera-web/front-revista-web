@@ -20,7 +20,7 @@ export default {
       spacing: {
         '2vh': '80vh',
         "21":  "5.9rem",
-        "112": "32rem"
+        "112": "31rem"
       }
     },
   },
