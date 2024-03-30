@@ -13,7 +13,7 @@ export default function NavBar() {
                     <nav className="flex justify-center w-max items-center flex-wrap bg-nvPink md:justify-center md:w-max md:p-1 xl:flex-nowrap xl:w-max xl:h-10 xl:flex xl:flex-row xl:justify-center xl:items-center">
                         <Link to={"/nosotros"} className="stroke-white border border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> NOSOTROS </Link>
                         <Link to={"/comercios"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> COMERCIOS </Link>
-                        <Link to={"/profecionales-de-bellesa"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> PROF.BELLESAS </Link>
+                        <Link to={"/profecionales-de-bellesa"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> PROF.BELLEZAS </Link>
                         <Link to={"/profecionales-de-salud"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> PROF.SALUD </Link>
                         <Link to={"/clasificados"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> CLASIFICADOS </Link>
                         <Link to={"/contacto"} className="stroke-white border  border-r border-l border-black w-20 le:w-21 h-7 text-xs flex justify-center items-center"> CONTACTO </Link>

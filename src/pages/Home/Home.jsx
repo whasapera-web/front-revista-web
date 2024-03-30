@@ -8,7 +8,7 @@ export default function Home() {
             <main className="xl:w-screen xl:h-screen xl:justify-center xl:items-center xl:flex-col">
                 <NavBar />
                 <section className="xl:w-3/6 h-max w-full xl:h-full md:p-16 xl:p-2 le:p-6 flex justify-center items-center">
-                    <article className="backgroud w-full h-112 flex flex-row p-4 justify-center items-end gap-12 xl:mt-8 z-10">
+                    <article className="backgroud relative w-full h-112 flex flex-row p-4 justify-center items-end gap-12 xl:mt-8 z-10">
                         <div className="w-full flex flex-col justify-start items-start gap-2 mb-10 le:mb-5">
                             <div className="flex gap-1 items-center justify-center">
                                 <div className="h-4 w-4 md:h-10 md:w-10 xl:w-6 xl:h-6 border-2 rounded-full bg-green-500"> </div>
@@ -44,6 +44,10 @@ export default function Home() {
                                 <div className="h-4 w-6 le:w-4 le:mb-0 md:h-10 md:w-10 xl:w-6 xl:h-6 border-2 rounded-full bg-pink-500 mb-8"> </div>
                                 <a href="https://www.argentina.gob.ar/servicio/solicitar-turnos-en-anses" target="_blank" rel="noopener noreferrer" className="stroke-white text-xl text-white md:text-2xl xl:text-xl">TURNOS ANSES</a>
                             </div>
+                        </div>
+                        <div className="mt-4 absolute bottom-1 flex gap-1 items-center justify-center">
+                            <div className="h-4 w-6 le:w-4 le:mb-0 md:h-10 md:w-10 xl:w-6 xl:h-6 border-2 rounded-full bg-yellow-500 mb-8"> </div>
+                            <a href="https://wa.link/n644b3" target="_blank" rel="noopener noreferrer" className="stroke-white text-xl text-white md:text-2xl xl:text-xl">Turnos Hosp. Norte-Oeste <br /> Cempre y Centro de Zoonosis</a>
                         </div>
                     </article>
                 </section>
