@@ -43,5 +43,6 @@ body {
         background-image: url('/fondo-fer.jpeg');
         background-position: center;
         background-color: blue;
+        height: 90vh;
     }
 }

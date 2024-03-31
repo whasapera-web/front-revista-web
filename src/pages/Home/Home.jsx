@@ -5,11 +5,11 @@ export default function Home() {
 
     return (
         <>
-            <main className="xl:w-screen xl:h-screen xl:justify-center xl:items-center xl:flex-col">
+            <main className="xl:w-screen xl:flex xl:h-screen xl:justify-center xl:items-center xl:flex-col">
                 <NavBar />
                 <section className="xl:w-3/6 h-max w-full xl:h-full md:p-16 xl:p-2 le:p-6 flex justify-center items-center">
                     <article className="backgroud relative w-full h-112 flex flex-row p-4 justify-center items-end gap-14 xl:mt-8 z-10">
-                        <div className="w-full h-max flex justify-center items-center ml-8 mb-10">
+                        <div className="w-full h-max flex justify-center items-center ml-8 mb-10 xl:mb-5 xl:ml-32">
                             <div className="w-full flex flex-col justify-start items-start gap-2 mb-10 le:mb-5">
                                 <div className="flex gap-1 items-center justify-center">
                                     <div className="h-4 w-4 md:h-10 md:w-10 xl:w-6 xl:h-6 border-2 rounded-full bg-green-500"> </div>
